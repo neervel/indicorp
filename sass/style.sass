@@ -159,6 +159,16 @@ button
         margin-left: 10px
   &-info
     width: 340px
+    &-list
+      list-style: none
+      padding-left: 0
+      &-item
+        display: flex
+        &__img
+          margin-right: 20px
+        &__title
+          margin: 0
+          margin-bottom: 5px
 .practise
   background: $main-bg
   padding: 50px 0
@@ -320,7 +330,7 @@ button
     &__item
       margin-bottom: 10px
       font-size: 14px
-      font-weight: 600
+      font-weight: 400
       display: flex
       align-items: center
       justify-content: start
@@ -328,6 +338,8 @@ button
         margin-right: 10px
       & a
         color: #fff
+        & li 
+          color: #fff
 
       &:first-child
         font-size: 16px

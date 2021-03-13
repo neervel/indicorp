@@ -220,6 +220,24 @@ button:hover {
   width: 340px;
 }
 
+.service-info-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service-info-list-item {
+  display: flex;
+}
+
+.service-info-list-item__img {
+  margin-right: 20px;
+}
+
+.service-info-list-item__title {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
 .practise {
   background: #FAFAFA;
   padding: 50px 0;
@@ -469,7 +487,7 @@ button:hover {
 .footer-list__item {
   margin-bottom: 10px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -480,6 +498,10 @@ button:hover {
 }
 
 .footer-list__item a {
+  color: #fff;
+}
+
+.footer-list__item a li {
   color: #fff;
 }
 
