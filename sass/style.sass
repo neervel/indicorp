@@ -22,6 +22,8 @@ a
   &:visited
     color: #000
 
+.wow
+  visibility: hidden
 button
   border: none
   outline: none
@@ -128,10 +130,12 @@ button
       box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07)
       margin-bottom: -20px
       padding: 30px
+      &:last-child
+        background-color: $main-color
+        color: #fff
     &__title
       font-size: 24px
     &__text
-      color: $scnd-text-color
       font-size: 14px
 .why
   background: $main-bg

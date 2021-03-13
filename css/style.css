@@ -16,6 +16,10 @@ a:visited {
   color: #000;
 }
 
+.wow {
+  visibility: hidden;
+}
+
 button {
   border: none;
   outline: none;
@@ -166,12 +170,16 @@ button:hover {
   padding: 30px;
 }
 
+.hero-cards__item:last-child {
+  background-color: #00A0C1;
+  color: #fff;
+}
+
 .hero-cards__title {
   font-size: 24px;
 }
 
 .hero-cards__text {
-  color: #737373;
   font-size: 14px;
 }
 
